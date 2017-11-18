@@ -1,0 +1,29 @@
+{
+  "name": "security-cache",
+  "version": "0.0.1",
+  "description": "Security Cache",
+  "jest": {
+    "verbose": true,
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Dmitry Druganov",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^21.2.1",
+    "nodemon": "^1.12.1",
+    "webpack": "^3.8.1"
+  }
+}
